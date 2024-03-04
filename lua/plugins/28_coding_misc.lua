@@ -26,6 +26,16 @@ return {
 				mapping = keymap.cmp_mapping(cmp),
 			}
 		end,
+--		config = function()
+--			require('cmp').setup({
+--				window = {
+--					border = "rounded",
+--				},
+--				completion = {
+--					border = "rounded",
+--				},
+--			})
+--		end,
 		dependencies = {
 			'hrsh7th/cmp-path',
 			'hrsh7th/cmp-buffer',

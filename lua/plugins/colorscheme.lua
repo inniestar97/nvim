@@ -17,7 +17,7 @@ return {	-- colortheme is load right after lazy setup
 					annotation = { italic = true },
 					tag_attribute = { italic = true }, -- attribute of tag in reactjs
 				},
-				filter = "spectrum", -- classic | octagon | pro | machine | ristretto | spectrum
+				filter = "machine", -- classic | octagon | pro | machine | ristretto | spectrum
 				-- Enable this will disable filter option
 				day_night = {
 					enable = false, -- turn off by default
@@ -33,8 +33,8 @@ return {	-- colortheme is load right after lazy setup
 					"renamer",
 					"notify",
 					-- "nvim-tree",
-					-- "neo-tree",
-					-- "bufferline", -- better used if background of `neo-tree` or `nvim-tree` is cleared
+					"neo-tree",
+					"bufferline", -- better used if background of `neo-tree` or `nvim-tree` is cleared
 				},-- "float_win", "toggleterm", "telescope", "which-key", "renamer", "neo-tree", "nvim-tree", "bufferline"
 				plugins = {
 					bufferline = {
