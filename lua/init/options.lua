@@ -35,7 +35,7 @@ M.opt_o = {
 
 	-- dev related
 	signcolumn = 'yes', -- always show to avoid text shift
-	number = false,
+	number = true,
 	relativenumber = false,
 	mouse = '',
 }
@@ -69,11 +69,13 @@ M.plugins = {
 		'clangd',
 		-- 'gopls',
 		-- 'pylyzer',
-		'pyright',
+		-- 'pyright',
+		'python',
 		'lua_ls',
 		-- 'vala_ls',
 		'rust_analyzer',
-		'biome', -- ft: json, javascript, typescript
+		'json', 'yaml',
+		-- 'biome', -- ft: json, javascript, typescript
 	},
 
 	-- linter: nvim-lint
@@ -137,5 +139,6 @@ function M.load_options()
 	for k, v in pairs(M.opt_o) do vim.o[k] = v end
 	for k, v in pairs(M.opt_g) do vim.g[k] = v end
 end
+
 
 return M
