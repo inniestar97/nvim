@@ -66,15 +66,13 @@ M.plugins = {
 	},
 
 	lsp_servers = {
-		'clangd',
+		-- 'clangd',
 		-- 'gopls',
 		-- 'pylyzer',
 		-- 'pyright',
-		'python',
-		'lua_ls',
+		-- 'lua_ls',
 		-- 'vala_ls',
-		'rust_analyzer',
-		'json', 'yaml',
+		-- 'rust_analyzer',
 		-- 'biome', -- ft: json, javascript, typescript
 	},
 

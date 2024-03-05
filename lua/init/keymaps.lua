@@ -26,25 +26,25 @@ M.neotree = { { '<F1>', '<cmd>Neotree toggle<cr>', desc = 'Toggle Neotree' } }
 M.trouble = { { '<F2>', '<cmd>TroubleToggle<cr>', desc = 'Toggle Trouble' } }
 
 M.trim = {
-	{ '<C-1>', '<cmd>Trim<cr>', desc = 'Trim Space' },
+	-- { '<C-1>', '<cmd>Trim<cr>', desc = 'Trim Space' },
 }
 
-M.notify = {
-	{
-		'<C-2>',
-		function()
-			require('notify').dismiss({ silent = true, pending = true })
-		end,
-		desc = 'Silent Popup Notifications',
-	},
-}
+--M.notify = {
+--	{
+--		'<C-2>',
+--		function()
+--			require('notify').dismiss({ silent = true, pending = true })
+--		end,
+--		desc = 'Silent Popup Notifications',
+--	},
+--}
 
-M.telescope = {
-	{ '<leader>ff', '<cmd>Telescope find_files<cr>', desc = 'TL file' },
-	{ '<leader>fg', '<cmd>Telescope live_grep<cr>', desc = 'TL grep' },
-	{ '<leader>fb', '<cmd>Telescope buffers<cr>', desc = 'TL buffer' },
-	{ '<leader>fh', '<cmd>Telescope help_tags<cr>', desc = 'TL tags' },
-}
+--M.telescope = {
+--	{ '<leader>ff', '<cmd>Telescope find_files<cr>', desc = 'TL file' },
+--	{ '<leader>fg', '<cmd>Telescope live_grep<cr>', desc = 'TL grep' },
+--	{ '<leader>fb', '<cmd>Telescope buffers<cr>', desc = 'TL buffer' },
+--	{ '<leader>fh', '<cmd>Telescope help_tags<cr>', desc = 'TL tags' },
+--}
 
 -- stylua: ignore
 M.spectre = { { '<leader>sr', function() require('spectre').open() end }, desc = 'Spectre' }
