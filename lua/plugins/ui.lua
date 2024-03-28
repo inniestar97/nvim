@@ -22,10 +22,10 @@ return {
 		'rtgiskard/noice.nvim',
 		event = 'VeryLazy',
 		opts = {
-			cmdline = {
-				enabled = true,
-				view = 'cmdline',
-			},
+--			cmdline = {
+--				enabled = true,
+--				view = 'cmdline',
+--			},
 			presets = {
 				bottom_search = true,
 				command_palette = true,
